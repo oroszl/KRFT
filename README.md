@@ -11,8 +11,7 @@ Az extra kernelek illetve cell magic-ek pedig az alábbi linkeken érhetőek el:
 - octave kernel [git repository](https://github.com/calysto/octave_kernel)
   egyszerű instalálás: `pip install octave_kernel`
 - octave magic [git repository](https://github.com/blink1073/oct2py)
-- egyszerű installálás: `pip install oct2py`
+  egyszerű installálás: `pip install oct2py`
 
 **fortran cell magic-ek:**
 - fortran [git repository](https://github.com/mgaitan/fortran_magic)
-- octave  
