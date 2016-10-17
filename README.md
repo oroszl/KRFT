@@ -15,3 +15,6 @@ Az extra kernelek illetve cell magic-ek pedig az alábbi linkeken érhetőek el:
 
 **fortran cell magic-ek:**
 - fortran [git repository](https://github.com/mgaitan/fortran_magic)
+
+Itt kipróbálhatod:
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org:/repo/oroszl/krft)
