@@ -1,6 +1,6 @@
 FROM andrewosh/binder-base
 
-USER root
+USER main
 
 #RUN conda install -c conda-forge pythreejs
 #RUN conda install -c damianavila82 rise
