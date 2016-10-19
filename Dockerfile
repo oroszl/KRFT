@@ -1,6 +1,6 @@
 FROM andrewosh/binder-base
 
-USER main
+USER root
 
 #RUN conda install -c conda-forge pythreejs
 #RUN conda install -c damianavila82 rise
@@ -9,7 +9,16 @@ USER main
 RUN /home/main/anaconda2/envs/python3/bin/pip install pythreejs
 RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension install --py --sys-prefix pythreejs
 RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension enable --py --sys-prefix pythreejs
+RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension install --py --sys-prefix widgetsnbextension
 RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+RUN /home/main/anaconda2/bin/pip install pythreejs
+RUN /home/main/anaconda2/bin/jupyter nbextension install --py --sys-prefix pythreejs
+RUN /home/main/anaconda2/bin/jupyter nbextension enable --py --sys-prefix pythreejs
+RUN /home/main/anaconda2/bin/jupyter nbextension install --py --sys-prefix widgetsnbextension
+RUN /home/main/anaconda2/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+
 #RUN /home/main/anaconda2/bin/pip install pythreejs
 #RUN /home/main/anaconda2/bin/jupyter nbextension enable --py --sys-prefix pythreejs
 
